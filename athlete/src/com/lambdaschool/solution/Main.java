@@ -3,7 +3,7 @@ package com.lambdaschool.solution;
 public class Main
 {
     public static void main(String[] args)
-    {
+     {
         AthleteCreationInjector injector;
         Processor app;
 
@@ -16,7 +16,6 @@ public class Main
         injector = new HockeyAthleteCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
-
 
         // Create a Rugby Athlete
         injector = new RugbyAthleteCreationInjector();
